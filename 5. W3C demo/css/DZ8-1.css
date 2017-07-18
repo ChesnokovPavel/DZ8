@@ -1,0 +1,51 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+header{
+	background-color: orange;
+	width: 900px;
+	margin: 0px auto;
+}
+h1{
+	padding: 30px 0px 0px 30px;
+}
+header>p{
+	padding: 0px 0px 30px 30px;
+	margin: 0;
+}
+main{
+	width: 900px;
+	margin: 0px auto;
+}
+main::after{
+	content: "";
+	display: block;
+	clear: both;
+	font-size: 0px;
+}
+article{
+	width: 240px;
+	float: left;
+	margin: 10px 30px 0px 30px;
+}
+img{
+	width: 240px;
+}
+.paris{
+	margin: 17px 0px 0px 0px;
+}
+.tokyo{
+	margin: 15px 0px 0px 0px;
+}
+@media screen and (max-width: 1000px){
+	article{
+		float: none;
+		width: 1000px;
+	}
+	img{
+		margin: 0;
+		width: 400px;
+	}
+}
