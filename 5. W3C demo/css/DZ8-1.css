@@ -5,7 +5,7 @@ body{
 }
 header{
 	background-color: orange;
-	width: 900px;
+	width: 85%;
 	margin: 0px auto;
 }
 h1{
@@ -16,7 +16,7 @@ header>p{
 	margin: 0;
 }
 main{
-	width: 900px;
+	width: 85%;
 	margin: 0px auto;
 }
 main::after{
@@ -26,26 +26,32 @@ main::after{
 	font-size: 0px;
 }
 article{
-	width: 240px;
+	width: 30%;
 	float: left;
-	margin: 10px 30px 0px 30px;
+	margin: 0% 2.5% 0% 0%;
 }
 img{
-	width: 240px;
+	width: 48%;
+	margin: 0% 1% 0% 1%;
+	float: left;
 }
-.paris{
-	margin: 17px 0px 0px 0px;
+.q{
+	height: 170px;
 }
-.tokyo{
-	margin: 15px 0px 0px 0px;
+.london{
+	margin: 0% 2.5% 0% 2.5%;
 }
 @media screen and (max-width: 1000px){
-	article{
-		float: none;
-		width: 1000px;
-	}
+article{
+	width: 100%;
+	float: left;
+}
+.london{
+	margin: 0% 0% 0% 0%;
+}
 	img{
 		margin: 0;
-		width: 400px;
+		width: 80%;
+		margin: 0% 10% 3% 10%;
 	}
 }

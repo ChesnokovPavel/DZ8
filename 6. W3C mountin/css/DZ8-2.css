@@ -48,6 +48,9 @@ aside{
 	box-sizing: border-box;
 	padding: 10px;
 }
+a{
+	text-decoration: none;
+}
 @media screen and (max-width: 1000px){
 	header{
 		width: 500px;
